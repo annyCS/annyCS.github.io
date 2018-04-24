@@ -31,16 +31,20 @@ header h3 {
 .nombreAutor {
     text-align: left;
 }
-.nombreAutor h3{
+.nombreAutor h1 {
+    font-size: 2rem;
+}
+.nombreAutor h2{
     color: #ffeded;
     background-color: #21C4B3;
     padding: 2px 15px;
     text-align: left;
+    font-size: 1.75rem;
 }
 .boxContent.fotoContent {
     text-align: center;
 }
-.boxContent.datosContent i {
+.boxContent.datosContent em {
     margin-right: 10px !important;
 }
 .boxContent.datosContent span {
@@ -50,7 +54,7 @@ header h3 {
 .boxContent.datosContent .direccion {
     text-align: center;
 }
-.boxContent.datosContent .direccion i {
+.boxContent.datosContent .direccion em {
     font-size: 40px !important;
     color: #626262 !important;
     margin-right: 9px !important;
@@ -64,7 +68,7 @@ header h3 {
 }
 
 /** RRSS **/
-.boxRedesSocialesContent i{
+.boxRedesSocialesContent em {
     font-size: 55px !important;
 }
 .socialContent {
@@ -94,4 +98,13 @@ header h3 {
     color: #757575;
     font-size: 22px !important;
     /* padding-left: 10px; */
+}
+
+/** PERFIL **/
+.rightColumn h3 {
+    font-size: 1.25rem;
+}
+
+.rightColumn h4 {
+    font-size: 1rem;
 }

@@ -4,7 +4,7 @@
 .boxContent, .boxContent.skillsContent div, .boxContent.skillsContent p {
    /*border:1px solid #515151;*/
 }
-.columnLeft i{
+.columnLeft em {
     /*color: #2eccbd;*/
     color: #21C4B3;
     font-size: 16px;
