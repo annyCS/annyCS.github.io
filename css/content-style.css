@@ -112,3 +112,8 @@ header h3 {
 .rightColumn h4 {
     font-size: 1rem;
 }
+
+.profileContent .aboutMe{
+    font-size: 1.05rem;
+    margin-bottom: 50px;
+}
