@@ -43,3 +43,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     color: #757575!important;
     margin-right: 9px !important;
 }
+
+.videoQRContent img {
+    max-width: 45%;
+}
