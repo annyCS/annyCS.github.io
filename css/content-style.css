@@ -1,0 +1,97 @@
+/** ESTILO CONTENEDORES **/
+.w3-card, .w3-card-2 {
+    box-shadow: none;
+}
+
+/*********************/
+/* ESTILO CABECERA **/
+/********************/
+header {
+    background-color: #2eccbd;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 80px;
+    margin-bottom: -3px;
+}
+header h1 .titleHeader {
+    font-size: 45px;
+    color: #3E403B;
+}
+header h3 {
+    font-size: 20px;
+}
+
+
+/******************************/
+/** ESTILO COLUMNA IZQUIERDA **/
+/******************************/
+.nombreAutor {
+    text-align: left;
+}
+.nombreAutor h3{
+    color: #ffeded;
+    background-color: #21C4B3;
+    padding: 2px 15px;
+    text-align: left;
+}
+.boxContent.fotoContent {
+    text-align: center;
+}
+.boxContent.datosContent i {
+    margin-right: 10px !important;
+}
+.boxContent.datosContent span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.boxContent.datosContent .direccion {
+    text-align: center;
+}
+.boxContent.datosContent .direccion i {
+    font-size: 40px !important;
+    color: #626262 !important;
+    margin-right: 9px !important;
+}
+.boxContent.datosContent .direccion span {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/** RRSS **/
+.boxRedesSocialesContent i{
+    font-size: 55px !important;
+}
+.socialContent {
+    max-width: 145px;
+    position: absolute;
+    right: 70px;
+    top: 4px;
+    padding-right: 10px;
+    margin-right: 66px;
+}
+.socialContent > span {
+    font-weight: bold;
+    font-size: 19px;
+    display: inline-block;
+    margin-bottom: -2px;
+    color: #5a5a59;
+}
+.socialContent span + span{
+    font-weight: normal;
+    font-size: 19px;
+    display: inline-block;
+    color: #21C4B3;
+}
+
+.skillsContent .titleContent, .languageContent .titleContent{
+    /*  background-color: #5a5a59; */
+    color: #757575;
+    font-size: 22px !important;
+    /* padding-left: 10px; */
+}

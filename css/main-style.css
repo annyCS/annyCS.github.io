@@ -1,0 +1,44 @@
+.row {
+    /*border:1px solid #000000;*/
+}
+.boxContent, .boxContent.skillsContent div, .boxContent.skillsContent p {
+   /*border:1px solid #515151;*/
+}
+.columnLeft i{
+    /*color: #2eccbd;*/
+    color: #21C4B3;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.w3-content {
+    max-width: 1200px;
+}
+
+/******************************/
+/** ESTILO COLUMNA IZQUIERDA **/
+/******************************/
+.boxContent.fotoContent img {
+    width:100%
+}
+.boxContent.datosContent {
+    margin-top: 20px;
+}
+.boxRedesSocialesContent{
+    position: relative;
+    margin-bottom: 15px;
+}
+.boxContent .textContent {
+    margin-bottom: 5px;
+}
+.boxContent .barraSkill {
+    margin-bottom: 20px;
+}
+
+.skillsContent .titleContent i, .languageContent .titleContent i{
+    /* display: none; */
+    color: #757575!important;
+    margin-right: 9px !important;
+}
