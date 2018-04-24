@@ -28,6 +28,10 @@ header h3 {
 /******************************/
 /** ESTILO COLUMNA IZQUIERDA **/
 /******************************/
+#foto{
+    color: transparent;
+    height: auto;
+}
 .nombreAutor {
     text-align: left;
 }
