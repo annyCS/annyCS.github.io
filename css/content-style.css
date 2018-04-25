@@ -51,8 +51,7 @@ header h3 {
 .boxContent.datosContent em {
     margin-right: 10px !important;
 }
-.boxContent.datosContent span {
-    font-weight: bold;
+.boxContent.datosContent strong {
     text-transform: uppercase;
 }
 .boxContent.datosContent .direccion {
@@ -63,7 +62,7 @@ header h3 {
     color: #626262 !important;
     margin-right: 9px !important;
 }
-.boxContent.datosContent .direccion span {
+.boxContent.datosContent .direccion strong {
     font-weight: normal;
     display: inline-block;
     font-size: 18px;
