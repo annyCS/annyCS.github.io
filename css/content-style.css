@@ -6,23 +6,14 @@
 /*********************/
 /* ESTILO CABECERA **/
 /********************/
-header {
-    background-color: #2eccbd;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 20px;
+header div.w3-border-bottom {
+    border-bottom-color: #00bcd4 !important;
+    color: #676666;
 }
 header h1 {
-    font-size: 80px;
-    margin-bottom: -3px;
+    font-variant: small-caps;
 }
-header h1 .titleHeader {
-    font-size: 45px;
-    color: #3E403B;
-}
-header h3 {
-    font-size: 20px;
-}
+
 
 
 /******************************/
