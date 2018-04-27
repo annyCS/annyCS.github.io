@@ -63,24 +63,21 @@ header h1 {
 }
 .socialContent {
     max-width: 145px;
-    position: absolute;
-    right: 70px;
-    top: 4px;
-    padding-right: 10px;
-    margin-right: 66px;
+    display: inline-block;
 }
-.socialContent > span {
+.socialContent h3 {
     font-weight: bold;
     font-size: 19px;
     display: inline-block;
     margin-bottom: -2px;
     color: #5a5a59;
 }
-.socialContent span + span{
+.socialContent h4{
     font-weight: normal;
     font-size: 19px;
     display: inline-block;
     color: #21C4B3;
+    margin: 0;
 }
 
 .skillsContent .titleContent, .languageContent .titleContent{
